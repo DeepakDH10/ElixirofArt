@@ -30,11 +30,51 @@
         letter-spacing: 15px;
       }}
 
-      @media screen and (max-width:420px){
+      @media only screen and (max-width: 1000px) and (min-width: 501px){
         .topheadshot{
-        font-size: 30px;
+        font-size: 40px;
+      } 
+      }
+
+      @media screen and (max-width:500px){
+        .topheadshot{
+        font-size: 22px;
         letter-spacing: 8px;
-      }}
+      }
+      .headshot-2nd{
+        margin-bottom: -38px;
+        font-size: 20px !important;
+
+    padding-top: 44px;
+}
+.topheadshot2{
+  letter-spacing: 6px !important;
+}
+
+      }
+      @media screen and (max-width:1000px){
+        .headshot-final{
+        display: flex;
+        justify-content: space-between;
+        
+       
+            }
+      }
+    
+      @media screen and (min-width:1001px){
+      .headshot-final{
+        display: flex;
+         justify-content: space-evenly;
+         gap: 10rem;
+        
+       
+            }
+            .topheadshot2{
+              margin-left:  40px;
+              letter-spacing: 13px !important;
+              margin-right: -20px;
+            }
+          }
     </style>
 
   </head>
@@ -124,8 +164,8 @@
           <div class="row align-items-center">
               
             <div class="col-md-10 mx-auto text-center">
-              <h1><p style="font-size:60px"><b class="topheadshot"> &nbsp;&nbsp; ELIXIR&nbsp; &nbsp; &nbsp; OF ART &nbsp;</b></p></h1>
-              <h2><p style="font-size:25px" class="">Solving problems through visuals, one pixel at a time.</p></h2>
+              <h1><p style="font-size:60px" class="headshot-final"><b class="topheadshot"> ELIXIR</b> <b class="topheadshot topheadshot2" style="">OF ART</b></p></h1>
+              <h2><p style="font-size:25px" class="headshot-2nd">Solving problems through visuals, one pixel at a time.</p></h2>
             </div>
 
           </div>
