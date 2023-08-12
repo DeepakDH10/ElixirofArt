@@ -1808,8 +1808,7 @@ figure.dotted-bg:before {
   border-radius: 50%;
   border: 0.3rem solid rgba(255, 255, 255, 0.3);
   border-top-color: #fff;
-  -webkit-animation: 1.5s spin infinite linear;
-  animation: 1.5s spin infinite linear;
+  
 }
 
 .loader-portfolio.dark, .site-loader.dark {
