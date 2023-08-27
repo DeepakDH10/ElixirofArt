@@ -58,7 +58,7 @@ a, a:hover {
 }
 
 .unslate_co--site-inner {
-  margin-bottom: 400px;
+  margin-bottom: 40px;
   position: relative;
   width: 100%;
   z-index: 1;
@@ -71,14 +71,14 @@ a, a:hover {
 }
 
 .unslate_co--footer {
-  position: fixed !important;
+  position: relative !important;
   width: 100%;
   background-color: #191919;
   color: #fff;
   left: 0;
   right: 0;
   bottom: 0px;
-  z-index: -1;
+  z-index: 1;
   height: 400px;
 }
 
