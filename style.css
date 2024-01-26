@@ -572,7 +572,7 @@ Primary use:	Showcase Portfolio
 		margin-bottom:20px;
 	}
 	
-	.uppercase-titles h1, .uppercase-titles h2, .uppercase-titles h3, .uppercase-titles h4, .uppercase-titles h5, .uppercase-titles h6 {
+	.uppercase-titles h1, .uppercase-titles h3, .uppercase-titles h4, .uppercase-titles h5, .uppercase-titles h6 {
 		text-transform:uppercase;
 	}
 	
