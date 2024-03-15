@@ -2119,7 +2119,8 @@
 	}
 	
 	.showcase-portfolio.layout-one .clapat-item:not(.filtered):nth-of-type(10n + 2) {
-		margin-left: calc(10% + 30px);
+		/* margin-left: calc(10% + 30px); */
+		margin-left:0px !important;
 	}
 	
 	.showcase-portfolio.layout-one .clapat-item:not(.filtered):nth-of-type(10n + 4) {
