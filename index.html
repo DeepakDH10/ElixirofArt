@@ -22,6 +22,41 @@
     <link href="css/all.min.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet"> 
    
+    <style>
+        @media only screen and (max-width: 1466px) and (min-width: 600px) {
+          .showcase-portfolio.layout-one
+            .clapat-item:not(.filtered):nth-of-type(10n + 1) {
+            width: calc(31% - 60px);
+          }
+        }
+  
+        @media only screen and (max-width: 1466px) and (min-width: 600px) {
+          .showcase-portfolio.layout-one .clapat-item {
+            width: calc(31% - 60px);
+            margin: 60px 30px;
+          }
+        }
+        @media only screen and (min-width: 600px) {
+          .showcase-portfolio.layout-one
+            .clapat-item:not(.filtered):nth-of-type(10n + 2) {
+            margin-left: 0px;
+            margin: 60px 40px !important;
+          }
+          .showcase-portfolio.layout-one .clapat-item {
+            width: calc(31% - 60px);
+            margin: 60px 40px;
+          }
+          .showcase-portfolio.layout-one
+            .clapat-item:not(.filtered):nth-of-type(10n + 1) {
+            width: calc(31% - 60px);
+          }
+          .showcase-portfolio.layout-one
+            .clapat-item:not(.filtered):nth-of-type(10n + 2) {
+            margin-left: 0px;
+          }
+        }
+      </style>
+
 </head>
 
 
@@ -360,8 +395,8 @@
                                                 
                                                 <div class="button-wrap right button-link">
                                                     <div class="icon-wrap parallax-wrap">
-                                                        <div class="button-icon parallax-element">
-                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                        <div class="button-icon parallax-element"> <a href="Glossary-SolarSystem.html">
+                                                            <i class="fa-solid fa-arrow-right"></i></a>
                                                         </div>
                                                     </div>
                                                     <a target="_blank" href="Glossary-SolarSystem.html"><div class="button-text sticky right">
